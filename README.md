@@ -1,3 +1,4 @@
+```c
 # test-streams
 1.DISCONTINUITY test stream
 https://rolandjon.github.io/test-streams/sample-discontinuity-stream/sample-discontinuity-stream.m3u8
