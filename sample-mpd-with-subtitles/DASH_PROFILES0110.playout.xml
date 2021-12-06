@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playoutsetDefinition xmlns="http://www.hbbtv.org/2010/testing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<transportStream bitrate="5000000" file="../../RES/BROADCAST/TS/generic-HbbTV-Teststream.ts">
+		<pid src="0" dst="0" description="PAT"/>
+		<pid src="17" dst="17" description="SDT"/>
+		<pid src="18" dst="18" description="EIT"/>
+		<pid src="20" dst="20" description="TDT/TOT"/>
+		<pid src="100" dst="100" description="PMT,svc 10"/>
+		<pid src="101" dst="101" description="video"/>
+		<pid src="102" dst="102" description="audio"/>
+		<pid src="200" dst="200" description="PMT,svc 11"/>
+		<pid src="300" dst="300" description="PMT,svc 12"/>
+		<pid src="400" dst="400" description="PMT,svc 13"/>
+		<pid src="500" dst="500" description="PMT,svc 14"/>
+	</transportStream>
+	<generatedData>
+		<ait pid="205" src="DASH_PROFILES0110.ait.xml" />
+		<!-- AIT SVC 11 -->
+	</generatedData>
+<networkConnection available="YES" />
+</playoutsetDefinition>

@@ -1,0 +1,5 @@
+The following notice applies to all files within this directory, with the exception of the test case description XML file <test_id>.xml.
+ 
+Copyright RT-RK Institute for Computer Based Systems LLC 2015
+This material is licensed under the HbbTV Test Suite License Agreement and any use of this material not in accordance with that agreement is strictly prohibited.
+The material contained in this directory/file is submitted under the "HbbTV Test Material Provider Agreement (Commercial)".

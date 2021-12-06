@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seglist xmlns="http://www.hbbtv.org/2012/dash-testing">
+  <file ref="audio/Aseg_init.mp4">
+    <size>621</size>
+    <start>0</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_1.m4s">
+    <size>23938</size>
+    <start>621</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_2.m4s">
+    <size>24428</size>
+    <start>24559</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_3.m4s">
+    <size>24328</size>
+    <start>48987</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_4.m4s">
+    <size>24202</size>
+    <start>73315</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_5.m4s">
+    <size>24287</size>
+    <start>97517</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_6.m4s">
+    <size>24286</size>
+    <start>121804</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_7.m4s">
+    <size>24411</size>
+    <start>146090</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_8.m4s">
+    <size>24255</size>
+    <start>170501</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_9.m4s">
+    <size>24354</size>
+    <start>194756</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_10.m4s">
+    <size>24292</size>
+    <start>219110</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_11.m4s">
+    <size>24358</size>
+    <start>243402</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_12.m4s">
+    <size>24438</size>
+    <start>267760</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_13.m4s">
+    <size>24239</size>
+    <start>292198</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_14.m4s">
+    <size>24193</size>
+    <start>316437</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_15.m4s">
+    <size>24419</size>
+    <start>340630</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_16.m4s">
+    <size>24133</size>
+    <start>365049</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_17.m4s">
+    <size>24358</size>
+    <start>389182</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_18.m4s">
+    <size>24452</size>
+    <start>413540</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_19.m4s">
+    <size>24207</size>
+    <start>437992</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_20.m4s">
+    <size>24563</size>
+    <start>462199</start>
+    <video>media_audio.fmp4</video>
+  </file>
+  <file ref="audio/Aseg_21.m4s">
+    <size>2420</size>
+    <start>486762</start>
+    <video>media_audio.fmp4</video>
+  </file>
+</seglist>
