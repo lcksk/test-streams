@@ -7,7 +7,7 @@
 	mediaPresentationDuration="PT0H1M0.000S" 
 	maxSegmentDuration="PT0H0M3.000S" 
     profiles="urn:hbbtv:dash:profile:isoff-live:2013,urn:dvb:dash:profile:dvb-dash:2014,urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014">
-    <BaseURL>http://192.168.31.254/issues/liang_min/ligada/org.hbbtv_DASH_PROFILES0110/</BaseURL>
+    <BaseURL>https://rolandjon.github.io/test-streams/sample-mpd-with-subtitles/</BaseURL>
     <Period start="PT0S" duration="PT0H1M0.000S" id="1">
         <AdaptationSet id="1" segmentAlignment="true" maxFrameRate="25" par="16:9">
             <Representation id="1a" profiles="urn:hbbtv:dash:profile:isoff-live:2013" mimeType="video/mp4" codecs="avc1.640029" width="1920" height="1080" frameRate="25" sar="1:1" startWithSAP="1" bandwidth="7038232">

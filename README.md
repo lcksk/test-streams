@@ -21,4 +21,5 @@ sample-mediaevents-sd2.ts
 #EXT-X-ENDLIST
 /////////////////////
 
-
+2. DASH with subtitles
+https://rolandjon.github.io/test-streams/sample-mpd-with-subtitles/sample-mpd-with-subtitles.mpd
