@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seglist xmlns="http://www.hbbtv.org/2012/dash-testing">
+  <file ref="subtitle/Sseg_init.mp4">
+    <size>616</size>
+    <start>0</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_1.m4s">
+    <size>2950</size>
+    <start>616</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_2.m4s">
+    <size>2950</size>
+    <start>3566</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_3.m4s">
+    <size>5804</size>
+    <start>6516</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_4.m4s">
+    <size>2950</size>
+    <start>12320</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_5.m4s">
+    <size>5804</size>
+    <start>15270</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_6.m4s">
+    <size>5804</size>
+    <start>21074</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_7.m4s">
+    <size>2950</size>
+    <start>26878</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_8.m4s">
+    <size>5804</size>
+    <start>29828</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_9.m4s">
+    <size>2950</size>
+    <start>35632</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_10.m4s">
+    <size>5804</size>
+    <start>38582</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_11.m4s">
+    <size>5804</size>
+    <start>44386</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_12.m4s">
+    <size>5804</size>
+    <start>50190</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_13.m4s">
+    <size>2950</size>
+    <start>55994</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_14.m4s">
+    <size>5809</size>
+    <start>58944</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_15.m4s">
+    <size>2951</size>
+    <start>64753</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_16.m4s">
+    <size>5806</size>
+    <start>67704</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_17.m4s">
+    <size>5806</size>
+    <start>73510</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_18.m4s">
+    <size>2951</size>
+    <start>79316</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_19.m4s">
+    <size>5806</size>
+    <start>82267</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+  <file ref="subtitle/Sseg_20.m4s">
+    <size>2951</size>
+    <start>88073</start>
+    <video>media_subtitle.fmp4</video>
+  </file>
+</seglist>

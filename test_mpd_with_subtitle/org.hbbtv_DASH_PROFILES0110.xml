@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testCase id="org.hbbtv_DASH_PROFILES0110" version="1"
+          xmlns="http://www.hbbtv.org/2012/B/testCase"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.hbbtv.org/2012/B/testCase ../../RES/testCase.xsd">
+    <originInformation>
+        <contributor part="assertion" company="TP Vision" contact="jon.piesing@tpv-tech.com"/>
+        <contributor part="procedure" company="RT-RK Institute for Computer Based Systems LLC" contact="hbbtv.testsuite@rt-rk.com" license="TMPA Commercial"/>
+        <contributor part="implementation" company="RT-RK Institute for Computer Based Systems LLC" contact="hbbtv.testsuite@rt-rk.com" license="TMPA Commercial"/>
+    </originInformation>
+    <title>Representation: Non-standard HbbTV not supported</title>
+    <appliesTo>
+        <spec name="HBBTV" version="1.4.1"/>
+        <spec name="HBBTV" version="1.5.1"/>
+        <spec name="HBBTV" version="1.6.1"/>
+    </appliesTo>
+    <specReference name="HBBTV" version="1.4.1">
+        <specSection chapter="E.4.1">
+            The following rules apply for Adaptation Sets and/or Representations that are not indicated as conforming to at least one of the "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014" or "urn:dvb:dash:profile:dvb-dash:isoff-ext-on-demand:2014" or "urn:hbbtv:dash:profile:isoff-live:2012" profiles: ....... • Adaptation Sets or Representations indicated as being compliant with profiles beginning "urn:hbbtv:dash:profile" shall be ignored unless the indicated profile is defined in a later version of the present document and the HbbTV terminal supports that profile.
+        </specSection>
+    </specReference>
+    <assertionText>
+        The src of an HTML5 video element points to a DASH MPD where the @profiles indicates "urn:hbbtv:dash:profile:isoff-live:2013", "urn:dvb:dash:profile:dvb-dash:2014" and "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014". The MPD includes one each of Video, Audio and subtitle Adaptation Sets with no @profiles element. Each Adaptation Set includes one or more Representations with @profiles set to "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014", one or more Representations with @profiles set to "urn:hbbtv:dash:profile:isoff-live:2013" and one or more representations with @profiles set to both of these. When the play method is called on the video element, no segments for Representations with @profiles set only to "urn:hbbtv:dash:profile:isoff-live:2013" are requested by the terminal.
+    </assertionText>
+    <preconditions/>
+    <testProcedure>
+        <testStep>
+            <procedure>Get unique session ID on the server which will be used to store test specific data.</procedure>
+        </testStep>
+        <testStep>
+            <procedure>Obtain a reference to the embedded video/broadcast object.</procedure>
+        </testStep>
+        <testStep>
+            <procedure>Bind the current channel to the video/broadcast object and stop presenting broadcast video.</procedure>
+            <expectedBehaviour>The onPlayStateChange() callback is called on the video/broadcast object with 'state' 2 (PRESENTING) and afterwards with state 3 (STOPPED).</expectedBehaviour>
+        </testStep>
+        <testStep>
+            <procedure>Obtain HTML5 video element and add HTML5 source element with 'src' property MPD_URL and 'type' property 'application/dash+xml' to it.</procedure>
+        </testStep>
+        <testStep>
+            <procedure>Play content for 80 seconds to make enough segment requests.</procedure>
+            <expectedBehaviour>Content is successfully played for 80 seconds.</expectedBehaviour>
+        </testStep>
+        <testStep>
+            <procedure>Get request segment log to check if segments for Representation with invalid '@profiles' attribute are requested.</procedure>
+            <expectedBehaviour>All segment requests are from Representations with valid '@profiles' attribute.</expectedBehaviour>
+        </testStep>
+    </testProcedure>
+    <passCriteria>
+        When the play method is called on the video element, no segments for Representations with @profiles set only to "urn:hbbtv:dash:profile:isoff-live:2013" are requested by the terminal and the src of an HTML5 video element points to a DASH MPD where the @profiles indicates "urn:hbbtv:dash:profile:isoff-live:2013", "urn:dvb:dash:profile:dvb-dash:2014" and "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014". The MPD includes one each of Video, Audio and subtitle Adaptation Sets with no @profiles element. Each Adaptation Set includes one or more Representations with @profiles set to "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014", one or more Representations with @profiles set to "urn:hbbtv:dash:profile:isoff-live:2013" and one or more representations with @profiles set to both of these.
+    </passCriteria>
+    <mediaFile name="DASH_PROFILES0110.mpd">
+        <description>
+            The MPD file includes two Period elements. Each Period has one of Video, Audio and one subtitle Adaptation Sets, with with five Representation with different bandwidth. Each Adaptation Set includes one or more Representations with @profiles set to "urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014", one or more Representations with @profiles set to "urn:hbbtv:dash:profile:isoff-live:2013" and one or more representations with @profiles set to both of these.
+        </description>
+    </mediaFile>
+    <mediaFile name="segment_server_invalid_profile/segment_server.php">
+        <description>
+            PHP script from segment_server_invalid_profile. This php file accepts requests for mpeg dash segments and returns their content.
+        </description>
+    </mediaFile>
+    <mediaFile name="segment_server_invalid_profile/subtitle_segment_server.php">
+        <description>
+            PHP script from segment_server_invalid_profile. This php file accepts requests for mpeg dash Subtitle segments and return their content.
+        </description>
+    </mediaFile>
+    <mediaFile name="segment_server_valid_profile/segment_server.php">
+        <description>
+            PHP script from segment_server_valid_profile. This php file accepts requests for mpeg dash segments and returns their content.
+        </description>
+    </mediaFile>
+    <mediaFile name="segment_server_valid_profile/subtitle_segment_server.php">
+        <description>
+            PHP script from segment_server_valid_profile. This php file accepts requests for mpeg dash Subtitle segments and return their content.
+        </description>
+    </mediaFile>
+    <history>
+        <historyItem name="Jon Piesing" date="2016-04-05" part="assertion" type="submitted"/>
+        <historyItem name="Chris Poole" date="2016-04-07" part="assertion" type="rejected">#4874</historyItem>
+        <historyItem name="Jon Piesing" date="2016-04-07" part="assertion" type="submitted"/>
+        <historyItem name="Chris Poole" date="2016-04-08" part="assertion" type="reviewed">2 typos also fixed.</historyItem>
+        <historyItem name="Jon Piesing" date="2016-04-08" part="assertion" type="submitted"/>
+        <historyItem name="Chris Poole" date="2016-04-08" part="assertion" type="reviewed"/>
+        <historyItem name="Jeffrey Goldberg" date="2016-04-15" part="assertion" type="reviewed"/>
+        <historyItem name="Robert Foreman" date="2016-04-15" part="assertion" type="accepted"/>
+        <historyItem name="RT-RK" date="2016-07-01" part="procedure" type="submitted"/>
+        <historyItem name="RT-RK" date="2016-07-01" part="implementation" type="submitted"/>
+        <historyItem name="Krzysztof Lis" date="2016-10-03" part="implementation" type="rejected">#5693</historyItem>
+        <historyItem name="RT-RK" date="2016-12-02" part="implementation" type="edited">#5693</historyItem>
+        <historyItem name="RT-RK" date="2016-12-14" part="implementation" type="submitted">#5929</historyItem>
+        <historyItem name="RT-RK" date="2017-03-17" part="implementation" type="edited"/>
+        <historyItem name="RT-RK" date="2017-05-22" part="implementation" type="submitted">#6621, #6623</historyItem>
+        <historyItem name="RT-RK" date="2017-06-30" part="implementation" type="submitted">#6230</historyItem>
+        <historyItem name="Fabien Vallée (Voxtok)" date="2017-07-03" part="implementation" type="reviewed">#6230</historyItem>
+        <historyItem name="HbbTV" date="2017-07-07" part="implementation" type="accepted">Approval following Test Event 05/17 with no passes but no errors found</historyItem>
+        <historyItem name="Huiling Wan" date="2017-11-09" part="implementation" type="rejected">#5926</historyItem>
+        <historyItem name="Joerg Pfliegensdoerfer" date="2017-11-09" part="implementation" type="rejected">#7666</historyItem>
+        <historyItem name="RT-RK" date="2017-12-08" part="implementation" type="submitted">#5926, #7666</historyItem>
+        <historyItem name="RT-RK" date="2017-12-08" part="procedure" type="edited"/>
+        <historyItem name="Meenakshi Kachawaha" date="2018-04-03" part="implementation" type="reviewed">Confirmed #5926, #7666, not run on device</historyItem>
+        <historyItem name="HbbTV" date="2018-07-02" part="implementation" type="accepted">Final approval following HbbTV Testing Event May 2018</historyItem>
+        <historyItem name="Robert Foreman" date="2018-10-09" part="procedure" type="reviewed"/>
+        <historyItem name="HbbTV" date="2018-10-30" part="assertion" type="edited"/>
+        <historyItem name="HbbTV" date="2018-11-09" part="procedure" type="accepted">Approval for minor release - no Test Event</historyItem>
+        <historyItem name="HbbTV" date="2021-05-31" part="assertion" type="edited"/>
+    </history>
+    <remarks>
+        The MPD for this test should be constructed in a manner so as to make it likely that a terminal that did not take into account the indicated profiles would attempt to present the Representations with an unsupported profile within the duration of the test. This might be achieved by making the unsupported Representations the highest and lowest bitrate Representations in an AdaptationSet and allowing the test to run for a period of a least 3 segments.
+    </remarks>
+</testCase>

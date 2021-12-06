@@ -20,4 +20,5 @@ sample-mediaevents-sd2.ts
 #EXT-X-ENDLIST
 /////////////////////
 
-
+2. mpd with subtitle
+https://rolandjon.github.io/test-streams/test_mpd_with_subtitle.mpd

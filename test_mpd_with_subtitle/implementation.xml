@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testImplementation id="org.hbbtv_DASH_PROFILES0110" xmlns="http://www.hbbtv.org/2012/testImplementation">
+    <playoutSets>
+        <playoutSet id="1" definition="DASH_PROFILES0110.playout.xml"/>
+    </playoutSets>
+</testImplementation>
