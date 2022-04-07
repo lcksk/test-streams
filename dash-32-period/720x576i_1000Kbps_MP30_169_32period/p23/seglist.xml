@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seglist xmlns="http://www.hbbtv.org/2012/dash-testing">
+  <file ref="video/1/init.mp4">
+    <size>698</size>
+    <start>0</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0000.m4f">
+    <size>99638</size>
+    <start>698</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0001.m4f">
+    <size>73635</size>
+    <start>100336</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0002.m4f">
+    <size>92329</size>
+    <start>173971</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0003.m4f">
+    <size>103197</size>
+    <start>266300</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0004.m4f">
+    <size>104013</size>
+    <start>369497</start>
+    <video>media-01.fmp4</video>
+  </file>
+</seglist>
+

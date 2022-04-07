@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seglist xmlns="http://www.hbbtv.org/2012/dash-testing">
+  <file ref="video/1/init.mp4">
+    <size>698</size>
+    <start>0</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0000.m4f">
+    <size>56693</size>
+    <start>698</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0001.m4f">
+    <size>58187</size>
+    <start>57391</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0002.m4f">
+    <size>40569</size>
+    <start>115578</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0003.m4f">
+    <size>40738</size>
+    <start>156147</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0004.m4f">
+    <size>67664</size>
+    <start>196885</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0005.m4f">
+    <size>74189</size>
+    <start>264549</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0006.m4f">
+    <size>87831</size>
+    <start>338738</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0007.m4f">
+    <size>112989</size>
+    <start>426569</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0008.m4f">
+    <size>104032</size>
+    <start>539558</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0009.m4f">
+    <size>122967</size>
+    <start>643590</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0010.m4f">
+    <size>97576</size>
+    <start>766557</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0011.m4f">
+    <size>128095</size>
+    <start>864133</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0012.m4f">
+    <size>87774</size>
+    <start>992228</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0013.m4f">
+    <size>102078</size>
+    <start>1080002</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0014.m4f">
+    <size>110925</size>
+    <start>1182080</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0015.m4f">
+    <size>105898</size>
+    <start>1293005</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0016.m4f">
+    <size>105450</size>
+    <start>1398903</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0017.m4f">
+    <size>108661</size>
+    <start>1504353</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0018.m4f">
+    <size>133839</size>
+    <start>1613014</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0019.m4f">
+    <size>110906</size>
+    <start>1746853</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0020.m4f">
+    <size>94763</size>
+    <start>1857759</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0021.m4f">
+    <size>105483</size>
+    <start>1952522</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0022.m4f">
+    <size>104303</size>
+    <start>2058005</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0023.m4f">
+    <size>104460</size>
+    <start>2162308</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0024.m4f">
+    <size>104588</size>
+    <start>2266768</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0025.m4f">
+    <size>101011</size>
+    <start>2371356</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0026.m4f">
+    <size>108926</size>
+    <start>2472367</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0027.m4f">
+    <size>104499</size>
+    <start>2581293</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0028.m4f">
+    <size>108332</size>
+    <start>2685792</start>
+    <video>media-01.fmp4</video>
+  </file>
+  <file ref="video/1/seg-0029.m4f">
+    <size>107747</size>
+    <start>2794124</start>
+    <video>media-01.fmp4</video>
+  </file>
+</seglist>
+
