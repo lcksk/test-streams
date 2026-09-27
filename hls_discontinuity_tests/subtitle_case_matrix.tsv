@@ -1,0 +1,32 @@
+sub-W-base-pos	sk4-2x-base	wvtt	pos	15.0	1	35.909666	0
+sub-W-base-mid	sk4-2x-base	wvtt	mid	3 20 10 8	1	35.909666	0
+sub-W-base-sp	sk4-2x-base	wvtt	pos	15.0	2	35.909666	0
+sub-W-base-mdsp	sk4-2x-base	wvtt	mid	3 20 10 8	2	35.909666	0
+sub-E-base-pos	sk4-2x-base	fmp4	pos	15.0	1	35.600000	0
+sub-E-base-mid	sk4-2x-base	fmp4	mid	3 20 10 8	1	35.600000	0
+sub-E-base-sp	sk4-2x-base	fmp4	pos	15.0	2	35.600000	0
+sub-E-base-mdsp	sk4-2x-base	fmp4	mid	3 20 10 8	2	35.600000	0
+sub-W-disc-pos	sk4-2x-disc	wvtt	pos	15.0	1	35.909666	0
+sub-W-disc-mid	sk4-2x-disc	wvtt	mid	3 20 10 8	1	35.909666	0
+sub-W-disc-sp	sk4-2x-disc	wvtt	pos	15.0	2	35.909666	0
+sub-W-disc-mdsp	sk4-2x-disc	wvtt	mid	3 20 10 8	2	35.909666	0
+sub-E-disc-pos	sk4-2x-disc	fmp4	pos	15.0	1	35.600000	0
+sub-E-disc-mid	sk4-2x-disc	fmp4	mid	3 20 10 8	1	35.600000	0
+sub-E-disc-sp	sk4-2x-disc	fmp4	pos	15.0	2	35.600000	0
+sub-E-disc-mdsp	sk4-2x-disc	fmp4	mid	3 20 10 8	2	35.600000	0
+sub-W-jump-pos	sk4-2x-jump	wvtt	pos	19.6	1	35.909666	0
+sub-W-jump-mid	sk4-2x-jump	wvtt	mid	3 20 10 8	1	35.909666	0
+sub-W-jump-sp	sk4-2x-jump	wvtt	pos	19.6	2	35.909666	0
+sub-W-jump-mdsp	sk4-2x-jump	wvtt	mid	3 20 10 8	2	35.909666	0
+sub-E-jump-pos	sk4-2x-jump	fmp4	pos	19.6	1	35.600000	0
+sub-E-jump-mid	sk4-2x-jump	fmp4	mid	3 20 10 8	1	35.600000	0
+sub-E-jump-sp	sk4-2x-jump	fmp4	pos	19.6	2	35.600000	0
+sub-E-jump-mdsp	sk4-2x-jump	fmp4	mid	3 20 10 8	2	35.600000	0
+sub-W-mixres-pos	sk4-2x-mixres	wvtt	pos	14.0	1	35.949666	1
+sub-W-mixres-mid	sk4-2x-mixres	wvtt	mid	3 20 10 8	1	35.949666	1
+sub-W-mixres-sp	sk4-2x-mixres	wvtt	pos	14.0	2	35.949666	1
+sub-W-mixres-mdsp	sk4-2x-mixres	wvtt	mid	3 20 10 8	2	35.949666	1
+sub-E-mixres-pos	sk4-2x-mixres	fmp4	pos	14.0	1	35.600000	1
+sub-E-mixres-mid	sk4-2x-mixres	fmp4	mid	3 20 10 8	1	35.600000	1
+sub-E-mixres-sp	sk4-2x-mixres	fmp4	pos	14.0	2	35.600000	1
+sub-E-mixres-mdsp	sk4-2x-mixres	fmp4	mid	3 20 10 8	2	35.600000	1

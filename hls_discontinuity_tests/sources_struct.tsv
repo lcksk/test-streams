@@ -1,0 +1,4 @@
+sk4-2x-base	ts	index.m3u8	35.909666	3	0	1280x720	-	-
+sk4-2x-disc	ts	index.m3u8	35.909666	3	2	1280x720	-	-
+sk4-2x-jump	ts	index.m3u8	35.909666	3	2	1280x720	-	-
+sk4-2x-mixres	ts	index.m3u8	35.949666	3	2	1280x720	1920x1080	-

@@ -1,0 +1,12 @@
+sk4-2x-base	ts	index.m3u8	35.909666	3	0	1280x720	-	-
+sk4-2x-disc	ts	index.m3u8	35.909666	3	2	1280x720	-	-
+sk4-2x-jump	ts	index.m3u8	35.909666	3	2	1280x720	-	-
+sk4-2x-mixres	ts	index.m3u8	35.949666	3	2	1280x720	1920x1080	-
+sk4-2x-base-wvtt	wvtt	master.m3u8	35.909666	3	0	1280x720	-	sub_en.m3u8
+sk4-2x-base-fmp4	fmp4	master.m3u8	35.600000	3	0	1280x720	-	sub_en.m3u8
+sk4-2x-disc-wvtt	wvtt	master.m3u8	35.909666	3	2	1280x720	-	sub_en.m3u8
+sk4-2x-disc-fmp4	fmp4	master.m3u8	35.600000	3	2	1280x720	-	sub_en.m3u8
+sk4-2x-jump-wvtt	wvtt	master.m3u8	35.909666	3	2	1280x720	-	sub_en.m3u8
+sk4-2x-jump-fmp4	fmp4	master.m3u8	35.600000	3	2	1280x720	-	sub_en.m3u8
+sk4-2x-mixres-wvtt	wvtt	master.m3u8	35.949666	3	2	1280x720	1280x720->1920x1080->1280x720	sub_en.m3u8
+sk4-2x-mixres-fmp4	fmp4	master.m3u8	35.600000	3	2	1280x720	1280x720->1920x1080->1280x720	sub_en.m3u8
